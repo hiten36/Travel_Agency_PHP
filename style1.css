@@ -1,0 +1,313 @@
+.login-main1{
+    background-color: rgb(228, 228, 228);
+    padding: 5rem 0rem;
+    width: 100%;
+}
+button{
+    cursor: pointer;
+    font-size: 18px;
+}
+.login-main{
+    height: 70vh;
+    width: 100%;
+}
+.login-box{
+    background-image: linear-gradient(to right, rgb(20, 0, 204) , rgb(0, 180, 255));
+    height: 74vh;
+    margin: 4rem 12vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.login-box1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-box2{
+    width: 70%;
+    height: 84%;
+    border-top-left-radius: 15% 60%;
+    border-bottom-left-radius: 15% 60%;
+    margin-left: 3vw;
+    background-color: rgb(235, 235, 235);
+}
+.login-img img{
+    width: 8rem;
+    filter: invert(1);
+}
+.login-box11 {
+    text-align: center;
+}
+.login-box11 p{
+    margin: 2vh 0vw;
+}
+.login-btn{
+    margin-top: 17vh;
+}
+.login-btn a{
+    border: none;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 8px 70px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+.login-btn button:hover{
+    box-shadow: 0 0 0 3pt black;
+}
+.toggle{
+    text-align: -webkit-right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.toggle1{
+    background-color: blue;
+    color: white;
+    padding: 3px 0px;
+    width: 15rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.toggle-login{
+    color: white;
+    cursor: pointer;
+}
+.toggle-regis{
+    color: white;
+    cursor: pointer;
+}
+.toggle-active{
+    background-color: white;
+    border-radius: 25px;
+    color: blue;
+    padding: 6px 10px;
+}
+.toggle-active1{
+    background-color: white;
+    border-radius: 25px;
+    color: blue;
+    padding: 6px 35px;
+}
+.form-box1{
+    text-align: center;
+}
+.form-box2{
+    width: 80%;
+    margin: 3rem auto;
+
+}
+.form-box2 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-box2 input{
+    font-size: 18px;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.192);
+    margin: 13px 10px;
+    width: 45%;
+}
+#radio input{
+    margin: 0;
+    width: 17px;
+}
+#radio label{
+    margin-left: 4px;
+}
+.radio-box{
+    position: relative;
+}
+.radio-outer{
+    width: 47%;
+    margin: 14px 0px;
+}
+.form-btn{
+    margin-top: 4rem;
+    float: right;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: white;
+    background-color: blue;
+    padding: 8px 50px;
+    font-weight: 500;
+}
+.lform-box1{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.lform-box2{
+    width: 45%;
+    height: 40vh;
+    margin: auto;
+    box-shadow: 0 4px 11px rgba(33,33,33,.3); 
+    border-radius: 4px;
+    background-color: rgb(223, 223, 223);
+}
+.lform-box21 img{
+    width: 7rem;
+    margin: 2vh 0vw;
+}
+.lform-box21{
+    text-align: center;
+}
+.lform input{
+    width: 90%;
+    margin: 6px 0px;
+    padding: 10px;
+}
+.lform{
+    text-align: center;
+}
+.login-btn1{
+    width: 90%;
+    padding: 10px 0px;
+    margin-top: 7px;
+    margin-bottom: 13px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+.login-btn1:hover{
+    background-color: rgb(50, 50, 255);
+}
+#lform-check{
+    width: auto;
+}
+.lform-box4{
+    text-align: start;
+    margin-left: 1vw;
+}
+.lform-box4 a{
+    text-decoration: none;
+}
+.lform-box3{
+    text-align: center;
+    margin: 1vh auto;
+}
+.lform-box3 a{
+    text-decoration: none;
+}
+.lform-box{
+    display: none;
+}
+.lform-box22{
+    width: 27%;
+
+}
+.lform-box0{
+    margin-top: 13vh;
+}
+@media screen and (max-width:1000px){
+    .login-box{
+        margin: 4rem 5vw;
+    }
+    .form-box{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:860px){
+    .login-box2{
+        width: 65%;
+    }
+    .login-box1{
+        width: 20%;
+    }
+    .lform-box2{
+        width: 65%;
+    }
+}
+@media screen and (max-width:780px){
+    .toggle1{
+        width: 12rem;
+        font-size: 13px;
+    }
+    .form-box1{
+        font-size: 12px;
+    }
+    .form-box2{
+        width: 92%;
+    }
+    .form-box2 input{
+        padding: 7px 5px;
+        font-size: 13px;
+    }
+    .form-btn{
+        padding: 5px 35px;
+    }
+    .login-btn a{
+        padding: 5px 60px;
+    }
+}
+@media screen and (max-width:600px){
+    .login-img img{
+        width: 5rem;
+    }
+    .login-box11{
+        font-size: 12px;
+    }
+    .login-btn a{
+        padding: 5px 45px;
+    }
+    .lform-box2{
+        width: 80%;
+    }
+    .lform-box1{
+        font-size: 12px;
+    }
+    .lform-box21 img {
+        width: 5rem;
+    }
+    .lform input{
+        padding: 5px;
+    }
+    .login-btn1{
+        padding: 5px 0px;
+    }
+}
+@media screen and (max-width:480px){
+    .login-box{
+        flex-direction: column;
+        justify-content: unset;
+        height: auto;
+        margin: 0rem 5vw;
+    }
+    .login-box1{
+        margin: 1rem 0rem;
+        width: auto;
+    }
+    .login-btn{
+        margin-top: 0px;
+    }
+    .login-btn a{
+        padding: 6px 50px;
+    }
+    .login-box2{
+        width: 85%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    .login-main{
+        height: auto;
+    }
+    .login-main1{
+        padding: 0;
+    }
+    .form-btn{
+        margin-bottom: 15px;
+    }
+}
